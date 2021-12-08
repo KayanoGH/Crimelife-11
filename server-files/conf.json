@@ -1,0 +1,10 @@
+{
+	"maxplayers" : 1024,
+	"name" : "Crimelife", 
+	"gamemode" : "Crimelife", 
+	"stream-distance" : 300.0,
+	"announce" : true,
+	"csharp" : "enabled",
+        "net-queue-size-multiplier": 30,
+	"port": 22005
+}

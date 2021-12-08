@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Crimelife": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Kayano\\Desktop\\Crimelife 1.1\\server-files\\ragemp-server.exe",
+      "workingDirectory": "C:\\Users\\Kayano\\Desktop\\Crimelife 1.1\\server-files",
+      "nativeDebugging": true
+    }
+  }
+}

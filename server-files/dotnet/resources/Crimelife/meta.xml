@@ -1,0 +1,7 @@
+<meta>
+ <script src="RageTestserver.dll" /> 
+ 	<info name="Crimelife" type="gamemode" description="metadescription"/>
+    <settings>
+    	<settings name="my_settings" value="69" description="Example number" />
+    </settings> 	
+</meta>
