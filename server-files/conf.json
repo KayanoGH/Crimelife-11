@@ -6,5 +6,6 @@
 	"announce" : true,
 	"csharp" : "enabled",
         "net-queue-size-multiplier": 30,
+	"api-threading-debugging": false,
 	"port": 22005
 }

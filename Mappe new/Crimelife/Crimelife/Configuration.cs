@@ -12,7 +12,7 @@ namespace Crimelife
         private static readonly string database = "crimelife";
 
         #region SENSIBEL
-        private static readonly string password = "cZbkOp3.";
+        private static readonly string password = "";
         #endregion
 
         public static string connectionString = "Server=" + Configuration.host + "; Database=" + Configuration.database + "; UID=" + Configuration.username + "; PASSWORD=" + Configuration.password;
