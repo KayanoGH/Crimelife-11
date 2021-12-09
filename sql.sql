@@ -48,6 +48,12 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
+-- Exportiere Daten aus Tabelle nexus.accounts: ~0 rows (ungefähr)
+/*!40000 ALTER TABLE `accounts` DISABLE KEYS */;
+INSERT INTO `accounts` (`Id`, `Username`, `Password`, `Adminrank`, `Money`, `Fraktion`, `Fraktionrank`, `Business`, `Businessrank`, `Level`, `warns`, `Tickets`, `XP`, `Death`, `Customization`, `Clothes`, `Loadout`, `Location`, `Social`, `Gender`, `Medic`, `Donator`, `Event`, `Banzeit`, `Beschreibung`, `Spawn`) VALUES
+	(1, 'Test', '', 0, 5000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '{"API":{"Exported":{}},"Haare":{"drawable":0,"texture":0},"Hut":{"drawable":-1,"texture":0},"Brille":{"drawable":0,"texture":0},"Maske":{"drawable":0,"texture":0},"Oberteil":{"drawable":171,"texture":0},"Unterteil":{"drawable":15,"texture":0},"Kette":{"drawable":14,"texture":0},"Koerper":{"drawable":4,"texture":0},"Hose":{"drawable":24,"texture":0},"Schuhe":{"drawable":1,"texture":0}}', '[]', '{"x":-1037.739,"y":-2737.8374,"z":20.569271}', '', 'male', 0, 0, 0, '2021-11-10 15:54:08', '', 0);
+/*!40000 ALTER TABLE `accounts` ENABLE KEYS */;
+
 -- Exportiere Struktur von Tabelle nexus.adminclothes
 CREATE TABLE IF NOT EXISTS `adminclothes` (
   `Name` varchar(255) NOT NULL,
